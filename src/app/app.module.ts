@@ -9,13 +9,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { ContactComponent } from './Componnent/contact/contact.component';
 import { FooterComponent } from './Componnent/footer/footer.component';
+import { CountryComponent } from './Componnent/country/country.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    CountryComponent
   ],
   imports: [
     BrowserModule,

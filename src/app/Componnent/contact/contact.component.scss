@@ -4,20 +4,11 @@ header {
       url("../../../assets/images/contact.webp");
     width: 100%;
     height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   h1 {
     font-weight: bold;
     color: #ffffff;
     font-size: 40px;
-  }
-  ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
   }
   li {
     padding: 10px 20px;
@@ -48,9 +39,9 @@ background-color: rgba(253,253,253,255)
 .mapEarth {
   .worldMap {
     position: relative;
-    width: 100%; /* Responsive width */
-    height: auto; /* Auto height */
-    padding-bottom: 100%; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto;
+    padding-bottom: 100%;
   }
 
   .earth {
@@ -70,10 +61,6 @@ background-color: rgba(253,253,253,255)
   }
 
   .orbic {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
     height: 100%;
 
     #orbic_user1 {
@@ -112,11 +99,6 @@ background-color: rgba(253,253,253,255)
   .title {
     color: #04193d;
     margin-bottom: 20px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
     &::before {
       content: "";
       width: 16px;
@@ -155,21 +137,12 @@ background-color: rgba(253,253,253,255)
     margin-top: 30px;
 
     ul {
-      list-style: none;
-
       li {
         margin-bottom: 15px;
-        display: flex;
-        align-items: center;
-        flex-direction: row-reverse;
       }
-
       span {
         min-width: 40px;
         height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         border: 1px solid #04193d;
         border-radius: 50%;
         transition: 0.3s ease-in-out;
@@ -192,11 +165,10 @@ background-color: rgba(253,253,253,255)
   }
 }
 
-/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
   .mapEarth .worldMap {
     height: auto;
-    padding-bottom: 75%; /* Adjust aspect ratio */
+    padding-bottom: 75%; 
   }
 
   .mapEarth .earth {
